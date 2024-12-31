@@ -1,0 +1,83 @@
+*{
+    /* margin: 0; */
+    /* padding: 0; */
+}
+body{
+     /* background-image: url("code.jpg"); */
+     /* background-size: cover; */
+}
+    li{
+    list-style-type: none;
+    color: blue;
+    cursor: pointer;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    /* color: rgb(138, 134, 148); */
+}
+#about{
+    background-color: #cecece;
+    visibility: hidden;
+}
+#learning{
+    background-color: rgb(92, 83, 70);
+    color: #f0f2ef;
+    visibility: hidden;
+   
+}
+#goals{
+background-color: #938054;
+color: #f0f2ef;
+/* color: black; */
+/* color: rgba(255, 255, 255, 0.5) */
+visibility: hidden;
+}
+#resolutions{
+    visibility: hidden;
+}
+
+@media (max-width:600px){
+      li{
+        text-align: center;
+        padding: 5px;
+      }
+      h2{
+        margin-top: 10px;
+      }
+}
+@media(min-width:601px){
+    li:hover{
+        color: black;
+    }
+    /* h2:hover{
+        transform: scaleX(1.06);
+    }
+    h2{
+        transition: all 2s ease-in-out;
+    } */
+}
+.flex{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+#you{
+    text-align: center;
+    width: 60px;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: #e9b3e1;
+    visibility: hidden;
+}
+#you{
+    background-color: black;
+    color: white;
+    transition-property: all;
+    /* transition-duration: 1s; */
+    transition-timing-function: steps(4);
+    transition-delay: 1s;
+    visibility: hidden;
+}
+
